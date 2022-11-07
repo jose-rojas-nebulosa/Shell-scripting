@@ -18,12 +18,12 @@ echo "Tamaño Arreglo de Cadenas:${#arregloCadenas[*]}"
 echo "Tamaño Arreglo de Números:${#arregloRangos[*]}"
 printf "%s\\n" ""
 #Imprimir la posición 3 del arreglo de números, cadenas de rango
-echo "Posición 3 Arreglo de Números:${arregloNumeros[0]}"
-echo "Posición 3 Arreglo de Cadenas:${arregloCadenas[1]}"
+echo "Posición 3 Arreglo de Números:${arregloNumeros[3]}"
+echo "Posición 3 Arreglo de Cadenas:${arregloCadenas[3]}"
 echo "Posición 3 Arreglo de Rangos:${arregloRangos[3]}"
 printf "%s\\n" ""
 #Añadir y eliminar valores en un arreglo
 arregloNumeros[6]=20
-unset arregloNumeros[0]
+unset arregloNumeros[9]
 echo "Arreglo de Números: ${arregloNumeros[*]}"
 echo "Tamaño arreglo de Números: ${#arregloNumeros[*]}"
